@@ -14,7 +14,7 @@ using MEAN stack. It is an online book shop where users can:
   7. Task runner and TDD with gulp, mocha
 
 =================================IMPORTANT======================================
-The tests have been done in chrome, so use it if possible at for the first try.
+The tests have been done in chrome, so use it if possible.
 ================================================================================
 
 ========================= Running the server ===================================
