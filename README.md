@@ -20,9 +20,11 @@ The tests have been done in chrome, so use it if possible.
 ========================= Running the server ===================================
   1. From the terminal, go to server/ folder:
     - run "npm install" to install all the node package
-    - Extract the backup_database.tgz and use "mongorestore" command to restore
-    the mongoDB database for the app  
-    - run  "mongod --dbpath sever/dump/test"
+    - Extract the backup_database.tgz
+    - run  "mongod --dbpath dump/test"
+    - run "mongorestore" to restore the mongoDB dump data for the app.
+    - OPTIONAL: run "mongo" to start interaction with the db and check that
+    db.products.counts() = 358 and db.categories.counts() = 11 
     - run "node index.js"
 
 ======================== Testing the Desktop application =======================
