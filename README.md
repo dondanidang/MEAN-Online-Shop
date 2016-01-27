@@ -4,7 +4,7 @@ using MEAN stack. It is an online book shop where users can:
   - Add/update a product to their cart
   - Authenticate with facebook before to checkout your cart
 
-=========================== What I learn =======================================
+=========================== What I learnt=======================================
   1. Schema design for MongoDB
   2. API with expressJS  
   3. AngularJS for webApp
